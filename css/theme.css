@@ -1,0 +1,94 @@
+/* Light Theme Variables */
+[data-theme="light"] {
+    /* Colors */
+    --primary-color: #4361ee;
+    --primary-light: #eef2ff;
+    --secondary-color: #7209b7;
+    --accent-color: #4cc9f0;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    
+    /* Background Colors */
+    --main-bg: #f8fafc;
+    --sidebar-bg: #ffffff;
+    --header-bg: #ffffff;
+    --card-bg: #ffffff;
+    --footer-bg: #ffffff;
+    --table-header-bg: #f9fafb;
+    --unread-bg: #f7f9fc;
+    
+    /* Text Colors */
+    --text-color: #2d3748;
+    --text-light: #718096;
+    --sidebar-text: #2d3748;
+    --sidebar-text-light: #718096;
+    
+    /* Border Colors */
+    --border-color: #e2e8f0;
+    --sidebar-border: #e2e8f0;
+    
+    /* Other Colors */
+    --hover-bg: #f1f5f9;
+    --sidebar-hover: #f1f5f9;
+    --sidebar-active: #eef2ff;
+    --search-bg: #f1f5f9;
+    --select-bg: #ffffff;
+    --action-btn-bg: #f1f5f9;
+    --toggle-bg: #cbd5e0;
+    
+    /* Shadows */
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+    /* Colors */
+    --primary-color: #6366f1;
+    --primary-light: #3730a3;
+    --secondary-color: #8b5cf6;
+    --accent-color: #06b6d4;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+    --info-color: #3b82f6;
+    
+    /* Background Colors */
+    --main-bg: #0f172a;
+    --sidebar-bg: #1e293b;
+    --header-bg: #1e293b;
+    --card-bg: #1e293b;
+    --footer-bg: #1e293b;
+    --table-header-bg: #334155;
+    --unread-bg: #2d3748;
+    
+    /* Text Colors */
+    --text-color: #f1f5f9;
+    --text-light: #94a3b8;
+    --sidebar-text: #f1f5f9;
+    --sidebar-text-light: #94a3b8;
+    
+    /* Border Colors */
+    --border-color: #334155;
+    --sidebar-border: #334155;
+    
+    /* Other Colors */
+    --hover-bg: #334155;
+    --sidebar-hover: #334155;
+    --sidebar-active: #3730a3;
+    --search-bg: #334155;
+    --select-bg: #1e293b;
+    --action-btn-bg: #334155;
+    --toggle-bg: #4b5563;
+    
+    /* Shadows */
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Theme Transition */
+* {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
